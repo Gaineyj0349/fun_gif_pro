@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:emojicon="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/frag_padd">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:id="@+id/frag_text_clear"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="0dp">
+                        <android.support.design.widget.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:fabSize="mini"
+                            app:srcCompat="@drawable/ic_clear_black_24dp"/>
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white"/>
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/frag_text_emoji"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="0dp"
+                        app:srcCompat="@drawable/ic_sentiment_very_satisfied_black_24dp">
+                    </android.support.v7.widget.AppCompatImageView>
+
+
+                </LinearLayout>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"/>
+
+
+                    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#ffffff"
+                android:text="Message"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+                android:gravity="top"
+                android:paddingLeft="@dimen/frag_padd"
+                android:textSize="18dp"
+                android:id="@+id/fragment_text_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:minLines="2"
+                android:maxLength="200"
+                emojicon:emojiconSize="28sp" />
+                </LinearLayout>
+
+                </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="1dp"
+                        android:background="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="8dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:background="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+                            <TextView
+                                android:textSize="20dp"
+                                android:background="@color/colorPrimary"
+                                android:fontFamily="sans-serif-smallcaps"
+                                android:textColor="#ffffff"
+                                android:text="@string/Speed"
+                                android:textAlignment="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <SeekBar
+                                android:layout_marginBottom="4dp"
+                                android:layout_marginTop="4dp"
+                                android:id="@+id/fragment_flow_speed_seekbar"
+                                android:max="130"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="1dp"
+                        android:background="#ffffff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="8dp">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:background="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+                            <TextView
+                                android:textSize="20dp"
+                                android:background="@color/colorPrimary"
+                                android:textColor="@color/white"
+                                android:fontFamily="sans-serif-smallcaps"
+                                android:text="@string/Direction"
+                                android:textAlignment="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <io.ghyeok.stickyswitch.widget.StickySwitch
+                                android:layout_marginRight="@dimen/fab_margin"
+                                android:layout_marginLeft="@dimen/fab_margin"
+                                android:layout_marginTop="2dp"
+                                android:id="@+id/frag_flow_direction_switch"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:layout_centerInParent="true"
+                                app:ss_animationDuration="600"
+                                app:ss_iconPadding="18dp"
+                                app:ss_iconSize="22dp"
+                                app:ss_leftIcon="@drawable/ic_chevron_left_black_24dp"
+                                app:ss_leftText="@string/Left"
+                                app:ss_rightIcon="@drawable/ic_chevron_right_black_24dp"
+                                app:ss_rightText="@string/Right"
+                                app:ss_selectedTextSize="14sp"
+                                app:ss_sliderBackgroundColor="@color/white"
+                                app:ss_switchColor="@color/colorAccent"
+                                app:ss_textColor="@color/colorPrimary"
+                                app:ss_textSize="12sp"
+                                app:ss_animationType="line"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

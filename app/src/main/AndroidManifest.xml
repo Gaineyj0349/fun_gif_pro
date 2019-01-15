@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gainwise.fun_textPRO">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6280186717837639~6620247506" />
+
+        <activity
+            android:name="com.gainwise.fun_textPRO.Activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="com.gainwise.fun_textPRO.Activities.GifSaveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gainwise.fun_textPRO.Activities.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:launchMode="singleTop"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.gainwise.fun_textPRO.Activities.InformationAct"
+            android:parentActivityName="com.gainwise.fun_textPRO.Activities.MainActivity" />
+        <activity
+            android:name="com.gainwise.fun_textPRO.Activities.SettingsActivity"
+            android:parentActivityName="com.gainwise.fun_textPRO.Activities.MainActivity" />
+        <activity
+            android:name="com.gainwise.fun_textPRO.Activities.splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gainwise.fun_textPRO.Activities.CrashAct"
+            android:label="@string/title_activity_crash"
+            android:parentActivityName="com.gainwise.fun_textPRO.Activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

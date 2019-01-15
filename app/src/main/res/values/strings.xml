@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FUN.gif PRO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Custom GIF Maker!</string>
+    <string name="nav_header_subtitle">GainWise</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Size"><U>Size</U></string>
+    <string name="letterpadding"><U>Pad Letter</U></string>
+    <string name="Font"><U>Font</U></string>
+    <string name="Style"><U>Style</U></string>
+    <string name="Flow"><U>Flow</U></string>
+    <string name="Direction"><U>Direction</U></string>
+    <string name="emojiWarn">Certain devices can not capture large emojis. During the GIF saving process - the emoji
+        size will be reduced in an effort to capture it!
+        The default is size 20, but you may be able to try a larger size. To try a larger emoji size go to your settings!</string>
+    <string name="never">Do not show\nthis again!</string>
+    <string name="ok">OK! Save GIF</string>
+    <string name="Speed"><U>Duration</U></string>
+    <string name="Left">Left</string>
+    <string name="Right">Right</string>
+    <string name="BGcolor">Background Color</string>
+    <string name="textcolor">Text Color</string>
+    <string name="tap">Funify</string>
+    <string name="allow">Please allow this process to complete on its own!\n
+    GIF settings can be changed in App Settings! (top left button)</string>
+    <string name="randomizeColor">Randomize Colors</string>
+    <string name="randomizeSize">Randomize Sizes</string>
+    <string name="randomizeSizeColor">Randomize Both</string>
+    <string name="ratebuy">Like this app?\nPlease rate us on the play store!\n</string>
+    <string name="gopro"><u>GET THE PRO VERSION</u></string>
+    <string name="nonever"><u>Do Not\nAsk Again</u></string>
+    <string name="later"><u>Maybe later\nExit Now</u></string>
+    <string name="rate"><u>RATE</u></string>
+    <string name="title_activity_fullscreen">Full Screen</string>
+    <string name="restart">Restart</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="testBanner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="testInterstitial">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <string name="information"><b>Thank you for downloading FUN.gif! This is where you can find information on App Updates:</b>
+        \n\n <b><u>December 9, 2018 Initial Release:</u></b>\n Although this app is still in production, we wanted release an early beta so users can start
+        to enjoy FUN.gif! This will also allow us to get a jumpstart on
+    tracking analytics and app performance along with user experience so our final product will
+        be the best it can be. We are excited to announce many more features are being
+       designed, developed and integrated into this app! Beta testers will also have
+    be awarded with a PRO feature upon official release. Please give feedback on the playstore and we will take them into consideration.
+    </string>
+    <string name="title_activity_crash">WOOPS!!</string>
+</resources>

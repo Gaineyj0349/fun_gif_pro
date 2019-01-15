@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        app:iconSpaceReserved="false"
+        android:defaultValue="ON"
+        android:entries="@array/pref_auto_rotate_on_off"
+        android:entryValues="@array/pref_auto_rotate_on_off"
+        android:key="auto_full_screen"
+        android:title="Show Quick Notification when GIF is ready:"
+        android:summary="ON"
+        />
+
+    <ListPreference
+        app:iconSpaceReserved="false"
+        android:defaultValue="15"
+        android:entries="@array/pref_gifsave_frame_rate"
+        android:entryValues="@array/pref_gifsave_frame_rate"
+        android:key="gifsave_frame_rate"
+        android:title="Frames per second to save GIFS:"
+        android:summary="15"
+        />
+    <ListPreference
+        app:iconSpaceReserved="false"
+        android:defaultValue="20"
+        android:entries="@array/emojis"
+        android:entryValues="@array/emojis"
+        android:key="emoji_size"
+        android:title="Max emoji size (different per device)"
+        android:summary="20"
+        />
+</PreferenceScreen>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/font0"
+        android:title="Monospace" />
+    <item
+        android:id="@+id/font1"
+        android:title="Sans Seriff"/>
+    <item
+        android:id="@+id/font2"
+        android:title="Seriff"/>
+    <item
+        android:id="@+id/font3"
+        android:title="Alfa Slab One" />
+    <item
+        android:id="@+id/font4"
+        android:title="Anton"/>
+    <item
+        android:id="@+id/font5"
+        android:title="Archivo"/>
+    <item
+        android:id="@+id/font6"
+        android:title="Joti One" />
+    <item
+        android:id="@+id/font7"
+        android:title="K2D"/>
+    <item
+        android:id="@+id/font8"
+        android:title="Luckiest Guy"/>
+    <item
+        android:id="@+id/font9"
+        android:title="Notable" />
+    <item
+        android:id="@+id/font10"
+        android:title="Passion One"/>
+    <item
+        android:id="@+id/font11"
+        android:title="Permanent Marker"/>
+    <item
+        android:id="@+id/font12"
+        android:title="Righteous"/>
+    <item
+        android:id="@+id/font13"
+        android:title="Roboto Condensed"/>
+    <item
+        android:id="@+id/font14"
+        android:title="Rubik" />
+    <item
+        android:id="@+id/font15"
+        android:title="Rubik Mono One"/>
+    <item
+        android:id="@+id/font16"
+        android:title="Timmana"/>
+
+    <item
+        android:id="@+id/font17"
+        android:title="Bangers" />
+    <item
+        android:id="@+id/font18"
+        android:title="Charm"/>
+    <item
+        android:id="@+id/font19"
+        android:title="Cinzel"/>
+    <item
+        android:id="@+id/font20"
+        android:title="Courgette" />
+    <item
+        android:id="@+id/font21"
+        android:title="Fredericka The Great"/>
+    <item
+        android:id="@+id/font22"
+        android:title="Fredoka One"/>
+    <item
+        android:id="@+id/font23"
+        android:title="Grand Hotel" />
+    <item
+        android:id="@+id/font24"
+        android:title="Indie Flower"/>
+    <item
+        android:id="@+id/font25"
+        android:title="Kaushan Script"/>
+    <item
+        android:id="@+id/font26"
+        android:title="Lobster" />
+    <item
+        android:id="@+id/font27"
+        android:title="Marck Script"/>
+    <item
+        android:id="@+id/font28"
+        android:title="Nanum Pen Script"/>
+    <item
+        android:id="@+id/font29"
+        android:title="Pacifico"/>
+    <item
+        android:id="@+id/font30"
+        android:title="Paytone One"/>
+    <item
+        android:id="@+id/font31"
+        android:title="Philosopher" />
+    <item
+        android:id="@+id/font32"
+        android:title="Satisfy"/>
+    <item
+        android:id="@+id/font33"
+        android:title="Special Elite"/>
+    <item
+        android:id="@+id/font34"
+        android:title="Ubuntu" />
+    <item
+        android:id="@+id/font35"
+        android:title="Unlock"/>
+    <item
+        android:id="@+id/font36"
+        android:title="ZCOOL KuaiLe"/>
+</menu>

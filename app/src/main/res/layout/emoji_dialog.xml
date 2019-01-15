@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/fab_margin">
+    <ScrollView
+        android:padding="@dimen/fab_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <TextView
+           android:textAlignment="center"
+           android:text="@string/emojiWarn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/emoji_donotshow"
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/never" />
+    <Button
+        android:textSize="20dp"
+        android:id="@+id/emoji_ok"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+
+
+</LinearLayout>

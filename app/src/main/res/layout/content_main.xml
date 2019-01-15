@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gainwise.fun_textPRO.Activities.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/parentcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="@color/white"></View>
+    <LinearLayout
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:id="@+id/main_top_LL"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="#000000">
+
+
+        <LinearLayout
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:id="@+id/main_top_LL_inner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="@color/white"></View>
+    <android.support.design.widget.TabLayout
+        app:tabContentStart="80dp"
+        android:background="#000000"
+        android:id="@+id/tabs"
+        app:tabTextColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Font" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colors" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item_funify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Funify" />
+
+    </android.support.design.widget.TabLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_main_LL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_viewpager">
+
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

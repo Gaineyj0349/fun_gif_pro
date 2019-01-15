@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.GifSaveActivity"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:background="@color/white"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:id="@+id/gif_save_main_top_RL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+  >
+
+    <LinearLayout
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:id="@+id/gif_save_main_top_LL"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="#838383">
+
+
+        <LinearLayout
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:id="@+id/gif_save_main_top_LL_inner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:padding="@dimen/fab_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:padding="@dimen/fab_margin"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="@string/allow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
